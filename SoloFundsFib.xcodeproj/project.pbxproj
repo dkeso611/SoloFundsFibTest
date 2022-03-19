@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE06EDAF27E6DBA2006F7ED6 /* Int_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06EDAE27E6DBA2006F7ED6 /* Int_Tests.swift */; };
+		DE4CF77827E546840060D16B /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF77727E546840060D16B /* RowView.swift */; };
+		DE4CF77D27E5473C0060D16B /* FibListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF77C27E5473C0060D16B /* FibListViewModel.swift */; };
+		DE4CF78027E547EC0060D16B /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF77F27E547EC0060D16B /* Int+.swift */; };
+		DE4CF78227E548750060D16B /* FibItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78127E548750060D16B /* FibItemViewModel.swift */; };
+		DE4CF78427E548F80060D16B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78327E548F80060D16B /* DetailView.swift */; };
+		DE4CF78627E54A6F0060D16B /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78527E54A6F0060D16B /* ViewModelProtocol.swift */; };
+		DE4CF78827E55C440060D16B /* FibItemViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78727E55C440060D16B /* FibItemViewModel_Tests.swift */; };
+		DE4CF78D27E698430060D16B /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78C27E698430060D16B /* ItemProtocol.swift */; };
+		DEE115E527E40070004B598C /* SoloFundsFibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE115E427E40070004B598C /* SoloFundsFibApp.swift */; };
+		DEE115E727E40070004B598C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE115E627E40070004B598C /* ListView.swift */; };
+		DEE115E927E40071004B598C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE115E827E40071004B598C /* Assets.xcassets */; };
+		DEE115EC27E40071004B598C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE115EB27E40071004B598C /* Preview Assets.xcassets */; };
+		DEE115F627E40071004B598C /* ListViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE115F527E40071004B598C /* ListViewModel_Tests.swift */; };
+		DEE1160027E40071004B598C /* SoloFundsFibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE115FF27E40071004B598C /* SoloFundsFibUITests.swift */; };
+		DEE1160227E40071004B598C /* SoloFundsFibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1160127E40071004B598C /* SoloFundsFibUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE115F227E40071004B598C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE115D927E40070004B598C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE115E027E40070004B598C;
+			remoteInfo = SoloFundsFib;
+		};
+		DEE115FC27E40071004B598C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE115D927E40070004B598C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE115E027E40070004B598C;
+			remoteInfo = SoloFundsFib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE06EDAE27E6DBA2006F7ED6 /* Int_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int_Tests.swift; sourceTree = "<group>"; };
+		DE4CF77727E546840060D16B /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		DE4CF77C27E5473C0060D16B /* FibListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibListViewModel.swift; sourceTree = "<group>"; };
+		DE4CF77F27E547EC0060D16B /* Int+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+.swift"; sourceTree = "<group>"; };
+		DE4CF78127E548750060D16B /* FibItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibItemViewModel.swift; sourceTree = "<group>"; };
+		DE4CF78327E548F80060D16B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DE4CF78527E54A6F0060D16B /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		DE4CF78727E55C440060D16B /* FibItemViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibItemViewModel_Tests.swift; sourceTree = "<group>"; };
+		DE4CF78C27E698430060D16B /* ItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
+		DEE115E127E40070004B598C /* SoloFundsFib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloFundsFib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE115E427E40070004B598C /* SoloFundsFibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFundsFibApp.swift; sourceTree = "<group>"; };
+		DEE115E627E40070004B598C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DEE115E827E40071004B598C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE115EB27E40071004B598C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEE115F127E40071004B598C /* SoloFundsFibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloFundsFibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE115F527E40071004B598C /* ListViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel_Tests.swift; sourceTree = "<group>"; };
+		DEE115FB27E40071004B598C /* SoloFundsFibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloFundsFibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE115FF27E40071004B598C /* SoloFundsFibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFundsFibUITests.swift; sourceTree = "<group>"; };
+		DEE1160127E40071004B598C /* SoloFundsFibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFundsFibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE115DE27E40070004B598C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE115EE27E40071004B598C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE115F827E40071004B598C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4CF77627E5466F0060D16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CF77727E546840060D16B /* RowView.swift */,
+				DE4CF78327E548F80060D16B /* DetailView.swift */,
+				DEE115E627E40070004B598C /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE4CF77B27E547280060D16B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CF77C27E5473C0060D16B /* FibListViewModel.swift */,
+				DE4CF78127E548750060D16B /* FibItemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DE4CF77E27E547CC0060D16B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CF77F27E547EC0060D16B /* Int+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DE4CF78B27E698250060D16B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CF78527E54A6F0060D16B /* ViewModelProtocol.swift */,
+				DE4CF78C27E698430060D16B /* ItemProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DEE115D827E40070004B598C = {
+			isa = PBXGroup;
+			children = (
+				DEE115E327E40070004B598C /* SoloFundsFib */,
+				DEE115F427E40071004B598C /* SoloFundsFibTests */,
+				DEE115FE27E40071004B598C /* SoloFundsFibUITests */,
+				DEE115E227E40070004B598C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE115E227E40070004B598C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE115E127E40070004B598C /* SoloFundsFib.app */,
+				DEE115F127E40071004B598C /* SoloFundsFibTests.xctest */,
+				DEE115FB27E40071004B598C /* SoloFundsFibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE115E327E40070004B598C /* SoloFundsFib */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CF78B27E698250060D16B /* Protocols */,
+				DE4CF77E27E547CC0060D16B /* Extensions */,
+				DE4CF77B27E547280060D16B /* ViewModels */,
+				DE4CF77627E5466F0060D16B /* Views */,
+				DEE115E427E40070004B598C /* SoloFundsFibApp.swift */,
+				DEE115E827E40071004B598C /* Assets.xcassets */,
+				DEE115EA27E40071004B598C /* Preview Content */,
+			);
+			path = SoloFundsFib;
+			sourceTree = "<group>";
+		};
+		DEE115EA27E40071004B598C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEE115EB27E40071004B598C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEE115F427E40071004B598C /* SoloFundsFibTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE115F527E40071004B598C /* ListViewModel_Tests.swift */,
+				DE4CF78727E55C440060D16B /* FibItemViewModel_Tests.swift */,
+				DE06EDAE27E6DBA2006F7ED6 /* Int_Tests.swift */,
+			);
+			path = SoloFundsFibTests;
+			sourceTree = "<group>";
+		};
+		DEE115FE27E40071004B598C /* SoloFundsFibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE115FF27E40071004B598C /* SoloFundsFibUITests.swift */,
+				DEE1160127E40071004B598C /* SoloFundsFibUITestsLaunchTests.swift */,
+			);
+			path = SoloFundsFibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE115E027E40070004B598C /* SoloFundsFib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE1160527E40071004B598C /* Build configuration list for PBXNativeTarget "SoloFundsFib" */;
+			buildPhases = (
+				DEE115DD27E40070004B598C /* Sources */,
+				DEE115DE27E40070004B598C /* Frameworks */,
+				DEE115DF27E40070004B598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoloFundsFib;
+			productName = SoloFundsFib;
+			productReference = DEE115E127E40070004B598C /* SoloFundsFib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE115F027E40071004B598C /* SoloFundsFibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE1160827E40071004B598C /* Build configuration list for PBXNativeTarget "SoloFundsFibTests" */;
+			buildPhases = (
+				DEE115ED27E40071004B598C /* Sources */,
+				DEE115EE27E40071004B598C /* Frameworks */,
+				DEE115EF27E40071004B598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE115F327E40071004B598C /* PBXTargetDependency */,
+			);
+			name = SoloFundsFibTests;
+			productName = SoloFundsFibTests;
+			productReference = DEE115F127E40071004B598C /* SoloFundsFibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEE115FA27E40071004B598C /* SoloFundsFibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE1160B27E40071004B598C /* Build configuration list for PBXNativeTarget "SoloFundsFibUITests" */;
+			buildPhases = (
+				DEE115F727E40071004B598C /* Sources */,
+				DEE115F827E40071004B598C /* Frameworks */,
+				DEE115F927E40071004B598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE115FD27E40071004B598C /* PBXTargetDependency */,
+			);
+			name = SoloFundsFibUITests;
+			productName = SoloFundsFibUITests;
+			productReference = DEE115FB27E40071004B598C /* SoloFundsFibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE115D927E40070004B598C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DEE115E027E40070004B598C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DEE115F027E40071004B598C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DEE115E027E40070004B598C;
+					};
+					DEE115FA27E40071004B598C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DEE115E027E40070004B598C;
+					};
+				};
+			};
+			buildConfigurationList = DEE115DC27E40070004B598C /* Build configuration list for PBXProject "SoloFundsFib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE115D827E40070004B598C;
+			productRefGroup = DEE115E227E40070004B598C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE115E027E40070004B598C /* SoloFundsFib */,
+				DEE115F027E40071004B598C /* SoloFundsFibTests */,
+				DEE115FA27E40071004B598C /* SoloFundsFibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE115DF27E40070004B598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE115EC27E40071004B598C /* Preview Assets.xcassets in Resources */,
+				DEE115E927E40071004B598C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE115EF27E40071004B598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE115F927E40071004B598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE115DD27E40070004B598C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE115E727E40070004B598C /* ListView.swift in Sources */,
+				DE4CF78D27E698430060D16B /* ItemProtocol.swift in Sources */,
+				DE4CF78627E54A6F0060D16B /* ViewModelProtocol.swift in Sources */,
+				DE4CF78427E548F80060D16B /* DetailView.swift in Sources */,
+				DE4CF77827E546840060D16B /* RowView.swift in Sources */,
+				DE4CF78027E547EC0060D16B /* Int+.swift in Sources */,
+				DE4CF78227E548750060D16B /* FibItemViewModel.swift in Sources */,
+				DE4CF77D27E5473C0060D16B /* FibListViewModel.swift in Sources */,
+				DEE115E527E40070004B598C /* SoloFundsFibApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE115ED27E40071004B598C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE06EDAF27E6DBA2006F7ED6 /* Int_Tests.swift in Sources */,
+				DEE115F627E40071004B598C /* ListViewModel_Tests.swift in Sources */,
+				DE4CF78827E55C440060D16B /* FibItemViewModel_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE115F727E40071004B598C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1160227E40071004B598C /* SoloFundsFibUITestsLaunchTests.swift in Sources */,
+				DEE1160027E40071004B598C /* SoloFundsFibUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE115F327E40071004B598C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE115E027E40070004B598C /* SoloFundsFib */;
+			targetProxy = DEE115F227E40071004B598C /* PBXContainerItemProxy */;
+		};
+		DEE115FD27E40071004B598C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE115E027E40070004B598C /* SoloFundsFib */;
+			targetProxy = DEE115FC27E40071004B598C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DEE1160327E40071004B598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEE1160427E40071004B598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE1160627E40071004B598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoloFundsFib/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSD4CJD8TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DK.SoloFundsFib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEE1160727E40071004B598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoloFundsFib/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSD4CJD8TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DK.SoloFundsFib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEE1160927E40071004B598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZSD4CJD8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DK.SoloFundsFibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloFundsFib.app/SoloFundsFib";
+			};
+			name = Debug;
+		};
+		DEE1160A27E40071004B598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZSD4CJD8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DK.SoloFundsFibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloFundsFib.app/SoloFundsFib";
+			};
+			name = Release;
+		};
+		DEE1160C27E40071004B598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZSD4CJD8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DK.SoloFundsFibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoloFundsFib;
+			};
+			name = Debug;
+		};
+		DEE1160D27E40071004B598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZSD4CJD8TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DK.SoloFundsFibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoloFundsFib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE115DC27E40070004B598C /* Build configuration list for PBXProject "SoloFundsFib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1160327E40071004B598C /* Debug */,
+				DEE1160427E40071004B598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE1160527E40071004B598C /* Build configuration list for PBXNativeTarget "SoloFundsFib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1160627E40071004B598C /* Debug */,
+				DEE1160727E40071004B598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE1160827E40071004B598C /* Build configuration list for PBXNativeTarget "SoloFundsFibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1160927E40071004B598C /* Debug */,
+				DEE1160A27E40071004B598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE1160B27E40071004B598C /* Build configuration list for PBXNativeTarget "SoloFundsFibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1160C27E40071004B598C /* Debug */,
+				DEE1160D27E40071004B598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE115D927E40070004B598C /* Project object */;
+}
