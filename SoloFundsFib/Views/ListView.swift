@@ -10,31 +10,27 @@ import SwiftUI
 struct ListView<ViewModel: ListViewModelProtocol>: View {
     @StateObject var viewModel: ViewModel
     @State var searchTerm = ""
-    
+
     var title: String {
         viewModel.title
     }
-    
-    var list: [ItemProtocol] {
-        viewModel.list.reversed()
-    }
-    
-    var summaryButton: some View {
+
+    var detailViewButton: some View {
         NavigationLink(viewModel.detailViewTitle) {
             DetailView(
                 title: viewModel.detailViewTitle,
-                list: list
+                list: viewModel.detailViewList
             )
         }
     }
-    
+
     var clearButton: some View {
         Button(
             action: viewModel.clear,
             label: { Text(viewModel.clearButtonTitle) }
         )
     }
-    
+
     var textFieldView: some View {
         TextField(
             viewModel.textFieldPlaceholder,
@@ -46,19 +42,19 @@ struct ListView<ViewModel: ListViewModelProtocol>: View {
         )
         .submitLabel(.return)
     }
-    
+
     var scrollView: some View {
         ScrollView(showsIndicators: false) {
-            ForEach(list, id: \.id) { item in
+            ForEach(viewModel.displayList) { vm in
                 RowView(
-                    leftTitle: item.inputString,
-                    rightTitle: item.computedNumberString
+                    leadingTitle: vm.leadingTitle,
+                    trailingTitle: vm.trailingTitle
                 )
             }
             Spacer()
         }
     }
-    
+
     var listView: some View {
         VStack {
             textFieldView
@@ -69,11 +65,11 @@ struct ListView<ViewModel: ListViewModelProtocol>: View {
             }
         }
     }
-    
+
     var footerView: some View {
         Text(viewModel.footerViewTitle)
     }
-    
+
     var body: some View {
         NavigationView {
             listView
@@ -93,7 +89,7 @@ struct ListView<ViewModel: ListViewModelProtocol>: View {
                         clearButton
                     }
                     ToolbarItem(placement: .navigationBarTrailing) {
-                        summaryButton
+                        detailViewButton
                     }
                 }
         }
@@ -109,9 +105,18 @@ struct ListView_Previews: PreviewProvider {
     ]
     static var previews: some View {
         ListView(viewModel: FibListViewModel())
-        
+
         NavigationView {
-            DetailView(title: "Summary", list: mockItems)
+            DetailView(
+                title: "Summary",
+                list: mockItems.map {
+                    RowViewModel(
+                        id: $0.id,
+                        leadingTitle: $0.inputString,
+                        trailingTitle: $0.computedNumberString
+                    )
+                }
+            )
         }
     }
 }

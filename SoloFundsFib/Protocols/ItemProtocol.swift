@@ -7,19 +7,10 @@
 
 import Foundation
 
-protocol ItemProtocol {
-    var id: String { get }
+protocol Computable {
     var input: Int { get }
-    var computedNumberString: String { get }
-    var elapsedTime: Double { get }
 }
 
-extension ItemProtocol {
-    var inputString: String {
-        "\(input)"
-    }
-    
-    var elapsedTimeString: String {
-        "\(elapsedTime) ms"
-    }
+protocol Timeable {
+    var elapsedTime: Double { get }
 }

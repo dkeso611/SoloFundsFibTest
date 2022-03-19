@@ -16,6 +16,7 @@
 		DE4CF78627E54A6F0060D16B /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78527E54A6F0060D16B /* ViewModelProtocol.swift */; };
 		DE4CF78827E55C440060D16B /* FibItemViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78727E55C440060D16B /* FibItemViewModel_Tests.swift */; };
 		DE4CF78D27E698430060D16B /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CF78C27E698430060D16B /* ItemProtocol.swift */; };
+		DEA0EAC627E794FC00B30B38 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0EAC527E794FC00B30B38 /* RowViewModel.swift */; };
 		DEE115E527E40070004B598C /* SoloFundsFibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE115E427E40070004B598C /* SoloFundsFibApp.swift */; };
 		DEE115E727E40070004B598C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE115E627E40070004B598C /* ListView.swift */; };
 		DEE115E927E40071004B598C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE115E827E40071004B598C /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		DE4CF78527E54A6F0060D16B /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
 		DE4CF78727E55C440060D16B /* FibItemViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibItemViewModel_Tests.swift; sourceTree = "<group>"; };
 		DE4CF78C27E698430060D16B /* ItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
+		DEA0EAC527E794FC00B30B38 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
 		DEE115E127E40070004B598C /* SoloFundsFib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloFundsFib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE115E427E40070004B598C /* SoloFundsFibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFundsFibApp.swift; sourceTree = "<group>"; };
 		DEE115E627E40070004B598C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				DE4CF77C27E5473C0060D16B /* FibListViewModel.swift */,
 				DE4CF78127E548750060D16B /* FibItemViewModel.swift */,
+				DEA0EAC527E794FC00B30B38 /* RowViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				DEE115E727E40070004B598C /* ListView.swift in Sources */,
 				DE4CF78D27E698430060D16B /* ItemProtocol.swift in Sources */,
 				DE4CF78627E54A6F0060D16B /* ViewModelProtocol.swift in Sources */,
+				DEA0EAC627E794FC00B30B38 /* RowViewModel.swift in Sources */,
 				DE4CF78427E548F80060D16B /* DetailView.swift in Sources */,
 				DE4CF77827E546840060D16B /* RowView.swift in Sources */,
 				DE4CF78027E547EC0060D16B /* Int+.swift in Sources */,

@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct RowView: View {
-    var leftTitle: String
-    var rightTitle: String
-    
+    var leadingTitle: String
+    var trailingTitle: String
+
     var body: some View {
         VStack {
             HStack {
-                Text(leftTitle)
+                Text(leadingTitle)
                 Spacer()
-                Text(rightTitle)
+                Text(trailingTitle)
             }
             .padding(.vertical)
-            
+
             Divider()
         }
     }
@@ -28,6 +28,6 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(leftTitle: "Left title", rightTitle: "Right title")
+        RowView(leadingTitle: "Left title", trailingTitle: "Right title")
     }
 }
